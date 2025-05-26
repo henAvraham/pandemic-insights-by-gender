@@ -1,23 +1,35 @@
-# pandemic-insights-by-gender
-Analysis of COVID-19 positive test rates by gender using real data from Israel's Ministry of Health.
-The goal is to calculate and visualize the percentage of positive COVID-19 test results for each gender group, using Python's data analysis tools.
----
+# 🦠 Pandemic Insights by Gender
 
-## 📊 Dataset
-
-- **Source:** [data.gov.il](https://data.gov.il/dataset/covid-19)
-- **File:** `covid19_israel.csv`
-- **Fields used:** `gender`, `corona_result`
+Analysis of COVID-19 positive test rates by gender using real-world data from Israel's Ministry of Health.  
+Built with Python, pandas, and matplotlib.
 
 ---
 
-## 🔧 Technologies
+## 📁 Project Structure
 
-- Python 3.x
-- pandas
-- matplotlib
+| File | Description |
+|------|-------------|
+| `corona-data-analysis.py` | Python script performing the data analysis |
+| `covid19_israel.csv` | Raw dataset (real COVID-19 tests from Israel) |
+| `positive_rate_by_gender.png` | Output bar chart showing positive test rate by gender |
+| `README.md` | Project documentation |
 
-To install dependencies, run:
+---
+
+## ✨ Features
+
+- Real COVID-19 data from [data.gov.il](https://data.gov.il/dataset/covid-19)
+- Gender-based data filtering
+- Positive rate calculation by gender
+- Clean bar chart visualization
+- Lightweight and easy to run
+
+---
+
+✅ How To Run:
+
+1. **Clone the repository** or download the files manually  
+2. **Install required packages:**
 
 ```bash
-pip install -r requirements.txt
+pip install pandas matplotlib
